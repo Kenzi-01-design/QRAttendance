@@ -41,6 +41,7 @@ QR attendance system with two roles:
    DB_PASSWORD=
 
    QR_SECRET=replace-with-a-long-random-secret
+   OFFICER_PASSWORD=your-strong-officer-password
    ```
 3. Install dependencies and generate key:
    ```bash
@@ -61,10 +62,10 @@ QR attendance system with two roles:
    php artisan serve
    ```
 
-## Default Seeded Officer Account
+## Seeded Officer Account
 
 - Username: `officer`
-- Password: `password123`
+- Password: required `OFFICER_PASSWORD` value from `.env`
 
 ## Main Routes
 
